@@ -1,5 +1,65 @@
----
-layout: home
-title: Danakkii
-subtitle: AI Developer
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine 💖</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.2);
+      padding: 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      background: white;
+      color: #ff4f81;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ffe6ec;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy Valentine 💘</h1>
+    <p>내 하루의 디폴트 값은 너야.</p>
+    <button onclick="showLove()">눌러봐 💌</button>
+  </div>
+
+  <script>
+    function showLove() {
+      alert("Will you be my Valentine? 💖");
+    }
+  </script>
+</body>
+</html>
